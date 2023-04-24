@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\BaseHeaders">
+      <UniqueIdentifier>{042c80d0-f704-4f7d-b689-cc489ec5c739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MainApp">
+      <UniqueIdentifier>{e25555bf-e2ba-4771-a7ea-1a06582b8130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MainDilog">
+      <UniqueIdentifier>{1bc5e720-11a4-4c15-8885-a571c45f252e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MyTabCtrl">
+      <UniqueIdentifier>{c088ec66-b308-4d49-b84c-72467869b200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\CMyWindows">
+      <UniqueIdentifier>{d0464b33-38db-47b3-9ab7-92c111a6f77d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MyProgress">
+      <UniqueIdentifier>{fe25ca43-0c1e-406e-86a2-39ed51acfbbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MyFiles">
+      <UniqueIdentifier>{21d0a1ff-07d4-458f-b761-984d74c4f15b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MyPe">
+      <UniqueIdentifier>{7f2b60a5-aa8b-4e80-b69f-cad315d35531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MySection">
+      <UniqueIdentifier>{7190f9bb-99a6-432f-82e8-2c78c560c4b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MyDirectory">
+      <UniqueIdentifier>{5e9a40e2-6d4e-4f5e-8a5f-17b987f0967c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MyDirectory\MyImport">
+      <UniqueIdentifier>{8a27ef41-03ab-46ac-8713-4d6808c602e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MyProgress\MyMoudle">
+      <UniqueIdentifier>{e15e6c8e-c766-4cb3-b144-eebbd004483d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MyProgress\MyThread">
+      <UniqueIdentifier>{103727ef-1dac-40ca-8b5f-d7a9188a72a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MyDirectory\MyExport">
+      <UniqueIdentifier>{562a3c30-a6eb-4360-90af-843c7003f891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MyRelocation">
+      <UniqueIdentifier>{413a9830-f941-4c84-aff9-615d576f6986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MyResource">
+      <UniqueIdentifier>{d013db53-15c6-486b-baee-b19baece22f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MySTL">
+      <UniqueIdentifier>{189d6ec4-d501-414d-8339-50a87e8c2faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MD5">
+      <UniqueIdentifier>{caca3682-eb6f-47ab-a34f-2d912a61665b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MyFiles\MyControl">
+      <UniqueIdentifier>{cdd8c749-3a1e-434e-86b7-eef14388b2e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MyDelayLoad">
+      <UniqueIdentifier>{cfe92b78-9730-4fd4-a94e-2df8c77835b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>头文件\BaseHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件\BaseHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件\BaseHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件\BaseHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyTabCtrl.h">
+      <Filter>头文件\MyTabCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyWindows.h">
+      <Filter>头文件\CMyWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="CMProcess.h">
+      <Filter>头文件\MyProgress</Filter>
+    </ClInclude>
+    <ClInclude Include="MySericutyGuard.h">
+      <Filter>头文件\MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="MySericutyGuardDlg.h">
+      <Filter>头文件\MainDilog</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyThread.h">
+      <Filter>头文件\MyProgress\MyThread</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyMoudle.h">
+      <Filter>头文件\MyProgress\MyMoudle</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyFiles.h">
+      <Filter>头文件\MyFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyPEInfo.h">
+      <Filter>头文件\MyPe</Filter>
+    </ClInclude>
+    <ClInclude Include="MySection.h">
+      <Filter>头文件\MySection</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyDirectory.h">
+      <Filter>头文件\MyDirectory</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyImport.h">
+      <Filter>头文件\MyDirectory\MyImport</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyExport.h">
+      <Filter>头文件\MyDirectory\MyExport</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyRelocation.h">
+      <Filter>头文件\MyRelocation</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyResource.h">
+      <Filter>头文件\MyResource</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyTLS.h">
+      <Filter>头文件\MySTL</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>头文件\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyControl.h">
+      <Filter>头文件\MyFiles\MyControl</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyDelayLoad.h">
+      <Filter>头文件\MyDelayLoad</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MySericutyGuard.cpp">
+      <Filter>头文件\MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="MySericutyGuardDlg.cpp">
+      <Filter>头文件\MainDilog</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>头文件\BaseHeaders</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyTabCtrl.cpp">
+      <Filter>头文件\MyTabCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyWindows.cpp">
+      <Filter>头文件\CMyWindows</Filter>
+    </ClCompile>
+    <ClCompile Include="CMProcess.cpp">
+      <Filter>头文件\MyProgress</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyThread.cpp">
+      <Filter>头文件\MyProgress\MyThread</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyMoudle.cpp">
+      <Filter>头文件\MyProgress\MyMoudle</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyFiles.cpp">
+      <Filter>头文件\MyFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyPEInfo.cpp">
+      <Filter>头文件\MyPe</Filter>
+    </ClCompile>
+    <ClCompile Include="MySection.cpp">
+      <Filter>头文件\MySection</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyDirectory.cpp">
+      <Filter>头文件\MyDirectory</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyImport.cpp">
+      <Filter>头文件\MyDirectory\MyImport</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyExport.cpp">
+      <Filter>头文件\MyDirectory\MyExport</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyRelocation.cpp">
+      <Filter>头文件\MyRelocation</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyResource.cpp">
+      <Filter>头文件\MyResource</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyTLS.cpp">
+      <Filter>头文件\MySTL</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>头文件\MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyControl.cpp">
+      <Filter>头文件\MyFiles\MyControl</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyDelayLoad.cpp">
+      <Filter>头文件\MyDelayLoad</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MySericutyGuard.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MySericutyGuard.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MySericutyGuard.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
